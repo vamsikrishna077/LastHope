@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Optional: This makes the image fixed as you scroll */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #0d7fa2b5;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+nav ul li a:hover {
+    color: rgb(146, 200, 247);
+    font-size: 1.04rem;
+
+}
+
+#logo {
+    max-width: 130px;
+    /* Adjust the width as needed */
+    height: auto;
+
+}
+
+.logo-text {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: 600;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 13px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.search-form button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.donate-button {
+    background-color: #e74c3c;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    transition: background-color 0.3s;
+
+}
+
+.container {
+    display: flex;
+    background-image: url("home2.jpg");
+
+    background-size: cover;
+    /* Adjusts the image size to cover the entire container */
+    background-position: center center;
+    /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    box-shadow: 20px 20px 10px 5px white;
+
+    height: 700px;
+    margin-top: 80px;
+    padding: 30px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.container .left {
+
+    width: 791px;
+    height: 471px;
+
+}
+
+.container .right {
+
+    max-width: fit-content;
+    height: 500px;
+
+    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    padding: 23px;
+    margin-left: 588px;
+    color: white;
+
+}
+
+.container .right h2 {
+    color: #f2db1d;
+}
+
+.hCauses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 33px;
+    margin: 25px;
+}
+.heading1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    padding: 24px;
+    margin: 52px 608px;
+    justify-content: center;
+    display: flex;
+    background-color: #0d7fa2b5;
+ 
+  border-radius: 12px;
+  color:white;
+}
+  
+.line {
+    border: 2px solid #f0eeee;
+    margin-top: 24px;
+    max-width: 276px;
+    margin: 44px 627px;
+  }
+
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pic {
+    position: relative;
+}
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.icon img {
+    max-width: 24px;
+    /* Set the maximum width for the image */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+.themeCause {
+    background-color: #0d7fa2b5;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.txt {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ngo {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #f2db1d;
+}
+
+.ngo .icon {
+    margin-right: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.raised {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.raisedOf {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.achivedSlider {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.achivedSlider span {
+    height: 100%;
+    background-color: #0d7fa2b5;
+    border-radius: 5px;
+    display: block;
+}
+
+.daysLeft {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.supporter {
+    font-size: 14px;
+}
+.donate{
+margin-top: 10px;
+display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    /* Change to your preferred color */
+    color: #000;
+    /* Change to your preferred text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.showMoreCampBtn {
+    background-color: #0d7fa2b5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 724px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    max-width: 93px;
+    padding: 19px;
+  margin-left: 700px;
+}
+
+.showMoreCampBtn:hover {
+    background-color: #3498db;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    margin-right: 20px;
+    /* Adjust the spacing between columns */
+    padding: 10px;
+}
+
+.footer-col:last-child {
+    margin-right: 0;
+    /* Remove margin from the last column */
+}
+
+.footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.copyright {
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+/* Adjust social media icon color */
+
+
+
+/* Style the "Donate Now" button */
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    /* Change to your preferred color */
+    color: #000;
+    /* Change to your preferred text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+    background-color: #ffcc00;
+    /* Change to your preferred hover color */
+}
+
+/* Style the social media section container */
+.socialMedia {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the heading */
+.socialMedia h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fdfafa;
+    /* Change the color to your preference */
+}
+
+/* Style the list of social media links */
+.socialMedia ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each social media link */
+.socialMedia li {
+    display: inline-block;
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style the social media icons */
+.socialMedia a i {
+    font-size: 24px;
+    color: #333;
+    /* Change the color to your preference */
+    transition: color 0.3s ease;
+    /* Add a smooth color transition effect */
+}
+
+/* Hover effect for social media icons */
+.socialMedia a:hover i {
+    color: #007bff;
+    /* Change the hover color to your preference */
+}
+
+/* Style the social media text (e.g., "facebook", "twitter") */
+.socialMedia a span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    /* Adjust the margin as needed */
+    color: #f6efef;
+    /* Change the color to your preference */
+}
+/* .container-donation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.donation-item {
+  flex: 0 1 calc(33.333% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}   
+  
+.don{
+    width: 400px;
+} */
+/* Apply styles to the donation items */
+/* .donation-item {
+    flex: 0 1 calc(33.333% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  } */
+  
+  /* Style the heading */
+  /* .heading1 {
+    font-size: 24px;
+    font-weight: bold;
+  } */
+  
+  /* Style the donation image */
+  
+  
+  /* Style the list */
+ /* Style for each donor item */
+.donation-item {
+    border-radius: 5px;
+    padding: 30px;
+    margin: 8px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    /* text-align: center; */
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.2s;
+  }
+  
+  .donation-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Optional: Remove the underlines from links */
+  .donation-item a {
+    text-decoration: none;
+  }
+  
+  /* Optional: Center the content within each item */
+  .donation-item img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Optional: Style for donor name */
+  .donation-item strong {
+    
+    margin: 10px 0;
+  }
+  
+  /* Optional: Style for donation amount */
+  .donation-item strong:last-child {
+    color: #e74c3c; /* Change the color to your preference */
+  }
+  
+  /* Optional: Add some box shadow for a raised effect */
+  .donation-item {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "flood-relief-7a118",
+  "private_key_id": "a0153a583c4d3b87b8561f471f274719b7768735",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwX190ucl2Dj8K\nQ0m+vMYud1kgOLEZgFT7J87DknOLmwWTmhtrA3S28py+wLaOYV/42QjY+hYIPmp3\nf0hlWVPR0I9Ndy3ZPKeD25MdlHHURKy6bnbodSilgalv8Y+rUIj4KJPN514FIVy0\nfP4sPlyFpGf7pxzhV7lPY6yiM9bijxRDQWizL88BQSpXTqTT5kp0otbSU/vEmKWc\nLN9+Ej6pzyVE8g/U6CGC5S9BDh5mvE6dPSqO/wRBOygpZ655dMmlCQ22bKs2/Lid\nC1A3hicsE/MCllELlWcRbVc74M2xpUd7zjiLvD+auTGAa/sTxwSSx306tktQ8PC1\nzCSF0hnxAgMBAAECggEAM1ItNovxIVcX5OabiNLpYA/+cS/N6Lu8/rAgrCvrT042\nmzKWk9cXmTyTe7Yb6OZQxNpyhqCO1KtE06zH5iXODBmB+WqafsH1hJrZ/ht52+h3\n0m/eTdn5j99g7GAADDuM/5jfGWUfqKKClUphs4IZ7hFe6I1CDBg4pe89Bp3LA3Vf\nIIkNPvoMMIhQdP+r/l5frvcz61wrq+LeTRPYJdwXTm56Z4k2/4tE/dwBgbP0Sy4P\nMgAw7qGTKdlcxqzIDkU48hmC0hYfKPgTg+pX7OPEq1zoMzJtKldro5aGt//lrkIC\ng30Faxqbax0g/BORW3qfIucogv5SAGesnLRggRIQGQKBgQDZVLUwUGMXEV8ByiPx\nhaaySPbLkyCg++d0eSP4CwegTGUUQsDR85OEIV45EFtDcRySQ8kOIdM2Q/mnostc\n4aJqyaRN+GF8RWC+RCWDk4MR9YbuSaGcRm1HbahUdvGcvpmhqpakD8KAYfEkxNMZ\nOQ8Dfdu7ihSYqJMSax6f/eEQowKBgQDPwQmGYVv+N/AbN4ucKWhLxM3A8xxipliC\nTOqaQ5jYl5kKPhirEAsR1ZtEgtXWwYGiMr8PNLqWZNSECt89+sSbmOkgWTcQWUgL\nDA8sy5c9EV8WLC5YSzQEiT23o+cImBZL0/Y+3OXtAI2uDImxkRnATYN1TdhSNVNN\noI1/hI0QWwKBgFk/aPzDNj4F2y8f9Ky9RtxWDEtDSxXw/HafPL8iwGn6lVPBqe9O\nCJktHsVuSxwh+iqyfYE5MMRLG93Ug5DL8+fIkJmYU2g2EWlxELq8vAmG+3clc6F6\nZmv7wzGUetn0h6CVLjGHa0dPcTi5PztPbDPx3mdgZ97c8zCQHs5y8pbjAoGABd1T\nIYH6ENEPbBVDUaMxmIHztPCn6nj7oqH9NWGXHPYakdly5NFNHrHC8konMyq/OA7q\nqck5QymRfjC4YI2Fo0bLvegGz+VVTUqH2yHcIRMudffFTyTAUSh2n4p26R0x8+4F\n03x02R3c4f7knCiWa4FEprkN1DRBJ73SgLkDKmUCgYEAoZiLVu2uJdceQK0/jqPI\nWqhytxh0LELugxItYVAufFzI42RxMMNyC2eDRKuqn5jdA+gja6TxmbulG2hYTBlW\nDNt7HZjZO/cUkWs5D5k9/zeySShC6RobAOA9zMimmFWKRU0ktVHUSBgnEY9LPJoP\nPsbtAJFpbl4VOB4xs46ykKc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-hwcd6@flood-relief-7a118.iam.gserviceaccount.com",
+  "client_id": "102351141090918268008",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hwcd6%40flood-relief-7a118.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

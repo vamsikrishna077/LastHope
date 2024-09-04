@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: This makes the image fixed as you scroll */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #0d7fa2b5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+nav ul li a:hover {
+    color: rgb(146, 200, 247);
+    font-size: 1.04rem;
+
+}
+#logo{
+    max-width: 130px; /* Adjust the width as needed */
+    height: auto;
+    
+}
+
+.logo-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: 600;
+}
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 13px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.search-form button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.donate-button {
+  background-color: #e74c3c;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  text-decoration: none;
+
+  border-radius: 4px;
+
+  transition: background-color 0.3s;
+
+}
+.right{
+    display: block;
+}
+
+main {
+    padding: 20px;
+    margin-top: 80px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.container {
+    background-image: url('https://www.indiadonates.org/uploads/original/3about-banner-3.jpg'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    /* This property ensures that the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* background-attachment: fixed; */
+    background-position: center;
+     /* Makes the background image fixed so it doesn't scroll with the content */
+}
+
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+}
+.donateToInd {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.donateToInd h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.donateToInd p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.donateToInd a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.donateToInd a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for Donation Form */
+.gDonationForm {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.singleMonthly {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.singleMonthly input[type="radio"] {
+    margin-right: 10px;
+}
+
+.singleMonthly label {
+    color: white;
+    font-weight: 600;
+}
+
+.proDonateForm .tbl {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.amtw {
+    background-color: #3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.amtw:hover {
+    background-color: #2980b9;
+}
+
+.amount input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.amount input[type="text"]::placeholder {
+    color: #ddd;
+}
+
+.submit input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styles as needed */
+/* Styles for Login Form */
+.tContent form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tContent .formMess {
+    color: #e74c3c; /* Red color for error messages (you can change this) */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.tContent .field {
+    margin-bottom: 15px;
+}
+
+.tContent input[type="text"],
+.tContent input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tContent input[type="text"]::placeholder,
+.tContent input[type="password"]::placeholder {
+    color: #ddd;
+}
+
+.tContent .submit input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.tContent .submit input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+.container2 {
+    background-image: url('your-background-image.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+}
+
+.heading1 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 45px;
+        padding: 22px;
+        justify-content: center;
+        display: flex;
+}
+
+.line {
+        border: 2px solid #f0eeee;
+        margin-top: 24px;
+        max-width: 214px;
+        margin: 44px 627px;
+}
+
+
+
+.hCauses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.hCauses1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+   
+
+    
+}
+.hCauses1{
+    display: none;
+}
+
+.box {
+    background-color: rgb(10, 28, 43);
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+.box:hover {
+    background-color: rgba(143, 169, 147, 0.7);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pic {
+    position: relative;
+}
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.icon img {
+    max-width: 24px; /* Set the maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.themeCause {
+    background-color: #0d7fa2b5;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.txt {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ngo {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ngo .icon {
+    margin-right: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.raised {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.raisedOf {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.achivedSlider {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.achivedSlider span {
+    height: 100%;
+    background-color: #0d7fa2b5;
+    border-radius: 5px;
+    display: block;
+}
+
+.daysLeft {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.supporter {
+    font-size: 14px;
+}
+
+.donate{
+    margin-top: 10px;
+    display: inline-block;
+        padding: 10px 20px;
+        background-color: #ffd700;
+        /* Change to your preferred color */
+        color: #000;
+        /* Change to your preferred text color */
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+#showMoreCampBtn {
+    background-color: #0d7fa2b5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.showMoreCampBtn:hover {
+    background-color: #3498db;
+}
+/* footer hhhhh */
+
+/* Styles for the footer */
+/* Footer Styles */
+/* Footer Styles */
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    margin-right: 20px; /* Adjust the spacing between columns */
+    padding: 10px;
+}
+
+.footer-col:last-child {
+    margin-right: 0; /* Remove margin from the last column */
+}
+
+.footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.copyright {
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+/* Adjust social media icon color */
+
+
+
+/* Style the "Donate Now" button */
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Change to your preferred color */
+    color: #000; /* Change to your preferred text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+    background-color: #ffcc00; /* Change to your preferred hover color */
+}
+/* Style the social media section container */
+.socialMedia {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the heading */
+  .socialMedia h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fdfafa; /* Change the color to your preference */
+  }
+  
+  /* Style the list of social media links */
+  .socialMedia ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style each social media link */
+  .socialMedia li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Style the social media icons */
+  .socialMedia a i {
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+  }
+  
+  /* Hover effect for social media icons */
+  .socialMedia a:hover i {
+    color: #007bff; /* Change the hover color to your preference */
+  }
+  
+  /* Style the social media text (e.g., "facebook", "twitter") */
+  .socialMedia a span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px; /* Adjust the margin as needed */
+    color: #f6efef; /* Change the color to your preference */
+  }
+
+
+  .foodmain {
+    position: relative;
+    border-radius: 20px;
+    background-image: url("mainfood.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    transition: background-color 0.3s;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .foodmain1 {
+    position: absolute;
+    width: 388px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 352px;
+    margin-top: 150px;
+    border-radius: 20px;
+    
+}
+.foodmain1 #h1{
+    margin: 51px;
+}
+.para{
+    width: 600px;
+    height: 100px;
+    padding: 310px;
+    margin-left: -38px;
+}
+
+.row{
+    width: 500px;
+    height: 500px;
+    background-color: #e74c3c;
+}
+.donation-form {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .form-select, .form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Stack inputs on small screens */
+  }
+  
+  .input-group-text {
+    background: white;
+    border-radius: 50px;
+    padding: 8px;
+  }
+  
+  .donate-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .donate-btn:hover {
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    /* Adjust the layout for larger screens, e.g., tablets and desktops */
+    .donation-form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .form-group {
+      margin: 0;
+    }
+  }
+  .heading1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: -64px;
+    padding: 9px;
+    justify-content: center;
+    display: flex;
+    background-color: #248dd3;
+    border-radius: 20px;
+}
+
+  

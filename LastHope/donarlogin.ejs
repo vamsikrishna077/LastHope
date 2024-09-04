@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oxygen&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Optional: This makes the image fixed as you scroll */
+}
+.container {
+    display: flex;
+    background-color:  rgba(0, 0, 0, 0.6);
+background-image: url("help.jpg");
+    background-size: cover;
+    /* Adjusts the image size to cover the entire container */
+    background-position: center center;
+    /* Centers the image horizontally and vertically */
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+
+    height: 700px;
+    padding: 30px;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 80px;
+}
+.box {
+    border-radius: 10px;
+  overflow: hidden;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  margin-left: 30%;
+  height: 354px;
+  margin-top: 183px;
+  background-color: rgb(10, 31, 49);
+}
+.box h1{
+    margin: 0px 103px;
+}
+.formss{padding: 20px 131px;
+  margin: 12px 11px;
+}
+
+button {
+           
+
+            font-size: 18px;
+  margin: 16px 22px;
+  background-color: #0d7fa2b5;;
+  border-radius: 10px;
+        }
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease-in-out;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #0d7fa2b5;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+nav ul li a:hover {
+    color: rgb(146, 200, 247);
+    font-size: 1.04rem;
+
+}
+
+#logo {
+    max-width: 130px;
+    /* Adjust the width as needed */
+    height: auto;
+
+}
+
+.logo-text {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: 600;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 13px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.search-form button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.donate-button {
+    background-color: #e74c3c;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    transition: background-color 0.3s;
+
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    margin-right: 20px;
+    /* Adjust the spacing between columns */
+    padding: 10px;
+}
+
+.footer-col:last-child {
+    margin-right: 0;
+    /* Remove margin from the last column */
+}
+
+.footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.copyright {
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+/* Adjust social media icon color */
+
+
+
+/* Style the "Donate Now" button */
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    /* Change to your preferred color */
+    color: #000;
+    /* Change to your preferred text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+    background-color: #ffcc00;
+    /* Change to your preferred hover color */
+}
+
+/* Style the social media section container */
+.socialMedia {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the heading */
+.socialMedia h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fdfafa;
+    /* Change the color to your preference */
+}
+
+/* Style the list of social media links */
+.socialMedia ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each social media link */
+.socialMedia li {
+    display: inline-block;
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style the social media icons */
+.socialMedia a i {
+    font-size: 24px;
+    color: #333;
+    /* Change the color to your preference */
+    transition: color 0.3s ease;
+    /* Add a smooth color transition effect */
+}
+
+/* Hover effect for social media icons */
+.socialMedia a:hover i {
+    color: #007bff;
+    /* Change the hover color to your preference */
+}
+
+/* Style the social media text (e.g., "facebook", "twitter") */
+.socialMedia a span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    /* Adjust the margin as needed */
+    color: #f6efef;
+    /* Change the color to your preference */
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="tt.jpg" alt="HopeAfterFloods Logo" id="logo">
+            <span class="logo-text">HopeAfterFloods</span>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Food</a></li>
+                    <li><a href="news.html">Medicine</a></li>
+                    <li><a href="/">cloths</a></li>
+                    <li><a href="/">About US</a></li>
+                    <li>
+                        <form class="search-form">
+                            <input type="text" placeholder="What are you looking for">
+                            <button type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#" class="donate-button">Donate Now</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            
+            <div class="box">
+                <h1>Donor Registration</h1>
+            <div class="formss"><form action="/donorlogin" method="POST">
+                
+                <div class="ester"><label for="email">Email:</label></div>
+                <input type="email" id="email" name="email" required>
+
+                <div class="ester"><label for="password">Password:</label></div>
+                <input type="password" id="password" name="password" required>
+
+              
+                <button type="submit">Register as Donor</button>
+            </form> </div>
+        </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4 class="fw-bold">Menu</h4>
+                    <ul>
+                        <li><a href="/">Appeals</a></li>
+                        <li><a href="/">Get Involved</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li><a href="/">About US</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="fw-bold">Most needy</h4>
+                    <ul>
+                        <li><a href="https://childrenofadam.org/appeals/yemen-emergency-appeal">Yemen Emergency</a></li>
+                        <li><a href="https://childrenofadam.org/appeals/syrian-refugee/">Syria Emergency</a></li>
+                        <!-- Add more needy links here -->
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="fw-bold">Contact Us</h4>
+                    <p>Bhimavaram<br>vishnu institute of technology<br>main</p>
+                    <p> <a href="vishnu@gmail.com">vishnu@gmail.com</a><br><strong>T</strong> <a
+                            href="tel:9946593985">9946593985</a></p>
+                </div>
+                <div class="footer-col">
+                    <img src="hh.jpg" alt="HopeAfterFloods" width="278" height="103">
+                </div>
+                <div class="socialMedia">
+                    <h5>Follow Us On</h5>
+                    <ul>
+                        <li><a href="https://www.facebook.com/IndiadonatesID/" target="_blank"><i
+                                    class="fa fa-facebook"></i><span>facebook</span></a></li>
+                        <li><a href="https://twitter.com/indiadonatesID" target="_blank"><i class="fa fa-twitter"></i>
+                                <span>twitter</span></a></li>
+                        <li><a href="https://www.instagram.com/indiadonatesid/" target="_blank"><i
+                                    class="fa fa-instagram"></i> <span>instagram</span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1yLdXjfyKUfZ_Gu8M4sLuA" target="_blank"><i
+                                    class="fa fa-youtube"></i> <span>youtube</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="copyright" style="opacity: 0.5; font-size: 11px;">Charity Registration Number:
+                        1153244<br>© Children of Adam 2023</p>
+                    <p class="copyright" style="opacity: 0.5; font-size: 11px;">Designed & Developed by <a
+                            style="font-size: 12px;" target="_blank" class="text-white"
+                            href="https://brand786.com">Brand786</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        
+    </script>
+</body>
+</html>
